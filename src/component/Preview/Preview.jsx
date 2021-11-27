@@ -12,7 +12,7 @@ export default function Preview() {
                  <div className="vid-div">
                        <video src={trailer} controls />
                        <div className="arrow-back">
-                           <Link to="/"><ArrowBackRounded /></Link>
+                           <Link to="/"><ArrowBackRounded className="arrow-backwards" /></Link>
                        </div>
                  </div>
             </div>

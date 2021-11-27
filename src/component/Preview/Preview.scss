@@ -21,6 +21,16 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+
+            .arrow-backwards{
+                color: black;
+              
+                &:active{
+                    color: black;
+                }
+            }
+
+            
         }
     }
 }
