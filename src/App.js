@@ -10,7 +10,7 @@ function App() {
   return (
         <div className="App">  
             <div>    
-                  <BrowserRouter basename="Netflix">
+                  <BrowserRouter basename="/Netflix">
                         <Switch>
                              <Route exact path="/" component={Home} />
                              <Route exact path="/login" component={SignIn} />
