@@ -12,7 +12,7 @@ export default function Preview() {
                  <div className="vid-div">
                        <video src={trailer} controls />
                        <div className="arrow-back">
-                           <Link to="/Netflix"><ArrowBackRounded /></Link>
+                           <Link to="/"><ArrowBackRounded /></Link>
                        </div>
                  </div>
             </div>
