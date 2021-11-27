@@ -40,7 +40,7 @@ export default function ListItem() {
                                        numquam exercite a repellat illo accusantium, rem, veritatis laudantium beatae! Mollitia voluptatibus. 
                                      </div>
                                      <div className="vid-icons">
-                                          <Link to="Preview"><PlayCircleFilledRounded className="play-icon"/></Link>
+                                          <Link to="/Preview"><PlayCircleFilledRounded className="play-icon"/></Link>
                                           <AddCircleRounded />
                                           <ThumbUp />
                                           <ThumbDown />
