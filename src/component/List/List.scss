@@ -1,0 +1,64 @@
+.list{
+    color: white;
+    background: black;
+    height: 200px;
+    padding-top: 10px;
+
+    .head{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 17.5px;
+        margin-left: 30px;
+    }
+
+    .slide{
+        height: 80%;
+        background: grey;
+        display: flex; 
+        position: relative;
+        
+        
+        .for-arrow{
+            height: 100%;
+            width: 2%;
+            z-index: 95;
+            background: black;
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+        }
+
+        .back-arrow{
+            height: 100%;
+            width: 1.5%;
+            z-index: 95;
+            background: black;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            padding-left: 7.5px;
+            left: 0;
+        }
+
+        
+    }
+
+    .collections{
+        display:flex;
+        height: 100%;
+        width: max-content;
+        transform: translateX(0px);
+        transition: all 1s ease;
+        margin-left: 10px;
+
+        .Lists{
+            width: 50%;
+        }
+    }
+}

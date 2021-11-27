@@ -1,0 +1,26 @@
+.preview{
+    height: 100vh;
+    width: 100vw;
+
+    .preview-div{
+        height: 100vh;
+        width: 100vw;
+    
+        video{
+           height: 100vh;
+           width: 100vw;
+        }
+
+        .arrow-back{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border: 2px solid black;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}

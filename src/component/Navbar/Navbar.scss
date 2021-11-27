@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    background: linear-gradient(to top, tranpaent 0%, rgb(0, 0, 0, 0.3), 50%);
+    color: white;
+    font-size: 14;
+    position: fixed;
+    z-index: 999;
+
+    &.scrolled{
+        background-color: black;
+    }
+
+    .widgets{
+        position: absolute;
+        right: 1.5%;
+        top: 90%;
+
+        .settings{
+            margin-bottom: 15px;
+        }
+    }
+
+    .container{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .left{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            align-items: center;
+            
+            .Homepage{
+                margin-left: 20px;
+            }
+
+            .image{
+                
+
+            
+
+                 .img{
+                     margin-left: 40px;
+                     
+                     height: 25px;
+                
+                 }
+
+            }
+            
+        }
+
+        .right{
+            display: flex;
+            width: 17.5%;
+            position: absolute;
+            right: 2.5%;
+            justify-content: space-between;
+            align-items: center;
+
+            .photo{
+                height: 35px;
+                width: 30px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
