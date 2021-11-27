@@ -8,17 +8,18 @@ import SignUp from './component/Sign Up/SignUp';
 function App() {
 
   return (
-        <>         
+        <div className="App">  
+            <div>    
                   <BrowserRouter basename="/Netfix">
                         <Switch>
-                             <Route exact path="/" component={Home} />
+                             <Route exact path="/Netflix" component={Home} />
                              <Route exact path="/login" component={SignIn} />
                              <Route exact path="/register" component={SignUp} />
                              <Route exact path="/Preview" component={Preview} />
                         </Switch>  
                   </BrowserRouter>
-             
-        </>
+            </div> 
+        </div> 
   );
 }
 
